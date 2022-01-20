@@ -1,14 +1,15 @@
-Название:  на странице брендов отображаются тестовые кнопки ведущие на пустые страницы
+<BugReport>
+<Name>  на странице брендов отображаются тестовые кнопки ведущие на пустые страницы </Name>
 
-Приоритет:major
+<priority>major</priority>
+<discription>  на странице брендов отображаются кнопки “Braer test”, “Braas test”, “12тест” ведущие на пустые страницы </discription>
 
-Описание:  на странице брендов отображаются кнопки “Braer test”, “Braas test”, “12тест” ведущие на пустые страницы
-
-Предусловия: Страница сайта https://ceramic.extyl.pro/brands/ открыта
+<preconditions> Страница сайта https://ceramic.extyl.pro/brands/ открыта </preconditions>
  
-Шаги: 
-Шаг1: нажать на кнопки “Braer test”, “Braas test”
 
-Текущий результат: отображаются тестовые кнопки “Braer test”, “Braas test”, “12тест” ведущие на пустые страницы
+<StepsToReproduce> Шаг1: нажать на кнопки “Braer test”, “Braas test” </StepsToReproduce>
 
-Ожидаемый результат:  тестовые кнопки “Braer test”, “Braas test”, “12тест” отсутствуют
+<ActualResult> отображаются тестовые кнопки “Braer test”, “Braas test”, “12тест” ведущие на пустые страницы </ActualResult>
+
+<ExpectedResult>  тестовые кнопки “Braer test”, “Braas test”, “12тест” отсутствуют </ExpectedResult> 
+</BugReport>
